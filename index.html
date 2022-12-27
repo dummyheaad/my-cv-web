@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aysuka Ansari's Personal Site</title>
+    </head>
+
+    <body>
+        <!--
+            Deprecated Tag
+            Merupakan tag di HTML yang sudah tidak direkomendasikan lagi penggunaannya.
+            Beberapa website mengindikasikan tag ini dengan simbol thumb-down.
+            Namun tag ini masih bisa digunakan untuk backward compatibility.
+            Pada umumnya tag HTML yang deprecated sudah digantikan dengan CSS yan sesuai.
+        -->
+        <p><a id="top"></a></p>
+
+        <table cellspacing="25">
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/me.png" height="200" alt="Aysuka Profile Picture"></td>
+                    <td>
+                        <h1>Aysuka Ansari</h1>
+                        <p><em>Mahasiswa S1 Ilmu Komputer di <a href="https://ipb.ac.id/"><strong>IPB University</strong></a></em></p>
+                        <p>Saya sedang belajar Web Development.</p>
+                        <!--
+                            Gunakan tag em untuk menjadikan text italic.
+                            Tag em lebih direkomendasikan dibanding tag i.
+
+                            Gunakan tag strong untuk menjaditkan text bold.
+                            Tag strong lebih direkomendasikan dibanding tag b.
+                        -->
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+
+        <hr>
+
+        <h3>Education & Achievement</h3>
+
+        <ul>
+            <li> <a href="https://sman1ivkoto.sch.id/">SMA N 1 IV KOTO</a>
+                <ul>
+                    <li>Juara Umum Kelas XII</li>
+                    <li>Peringkat 7 OSN Kimia Tingkat Provinsi</li>
+                    <li>Peringkat 3 OSN Kimia Tingkat Kabupaten</li>
+                </ul>
+            </li>
+
+            <li> <a href="https://smpn1ivkoto.sch.id/">SMP N 1 IV KOTO</a>
+                <ul>
+                    <li>Juara Umum Kelas IX</li>
+                    <li>Siswa dengan NEM Tertinggi</li>
+                </ul>
+            </li>
+
+            <li> <a href="https://dapo.kemdikbud.go.id/sekolah/FD3A349394AF6CF41D13">SDN 03 KOTO TUO</a>
+                <ul>
+                    <li>Juara Umum Kelas 6</li>
+                    <li>Juara 3 OSN IPA</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>Experience</h3>
+
+        <!--
+            tag <table></table>
+            digunakan untuk membuat sebuah table di html
+            Terdapat 3 komponen utama dari table, yaitu:
+            a. <thead></thead>
+            b. <tbody></tbody>
+            c. <tfoot></tfoot>
+            Pada saat membuat table, direkomendasikan untuk
+            selalu memakai ketiga komponen di atas meskipun
+            kita bisa juga tidak menggunakannya
+            Tag tr (table row) digunakan untuk berpindah baris
+         -->
+        <table cellspacing="10">
+            <!--
+                tag thead digunakan untuk mendefinisikan
+                header dari masing-masing kolom.
+                Header dibuat dalam tag th (table header)
+                dimana teks yang diberikan akan otomatis
+                dituliskan dalam format bold
+             -->
+            <thead>
+                <tr>
+                    <th>Tahun</th>
+                    <th>Pekerjaan</th>
+                </tr>
+            </thead>
+
+
+            <!--
+                tag tbody digunakan untuk mendefinisikan
+                data/sel pada suatu baris.
+                Tag td (table data) digunakan untuk
+                mendefinisikan satu buah sel
+             -->
+            <tbody>
+                <tr>
+                    <td>2021</td>
+                    <td>Start Learning Python</td>
+                </tr>
+                <!--
+                    Hasil dari kombinasi tag di atas adalah:
+                    2021    Start Learning Python
+                -->
+                <tr>
+                    <td>2022</td>
+                    <td>Start Learning X86 Assembly</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Start Learning C</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Build My First Web (localhost)</td>
+                </tr>
+                <tr>
+                    <td>2021-Present</td>
+                    <td>Coding in C/C++ for Competitive Programming</td>
+                </tr>
+                <tr>
+                    <td>2019-Present</td>
+                    <td>Love Doing Math</td>
+                </tr>
+            </tbody>
+
+            <tfoot></tfoot>
+
+        </table>
+
+        <hr>
+
+        <h3><strong>Skills</strong></h3>
+
+
+        <table cellspacing="10">
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>C Programming</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>C++ Programming</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Python Programming</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>X86 Assembly</td>
+                    <td>⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Problem Solving</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Discrete Math</td>
+                    <td>⭐⭐</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+
+        <hr>
+        
+        <p><a href="hobbies.html">My Hobbies</a></p>
+        <p><a href="contact.html">Contact Me</a></p>
+
+        <p><a href="#top">Back to Top</a></p>
+    </body>
+
+</html>
